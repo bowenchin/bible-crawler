@@ -3,7 +3,7 @@ import regex as re
 
 class BibleSpider(scrapy.Spider):
     name = 'biblespider'
-    start_urls = ['https://www.biblegateway.com/passage/?search=Genesis+1&version=NKJV']
+    start_urls = ['https://www.biblegateway.com/passage/?search=Genesis+1&version=KJV']
     custom_settings = {
         'AUTOTHROTTLE_ENABLED': True,
         'LOG_LEVEL' : 'INFO'
